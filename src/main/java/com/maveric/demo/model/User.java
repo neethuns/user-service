@@ -47,6 +47,11 @@ public class User {
         private Gender gender;
         @NotNull(message="Password can not be null")
         private String password;
-
+        public String getMiddleName() {
+		return middleName;
+	}
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
+	}
 
 }
